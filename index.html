@@ -33,7 +33,7 @@
                 I also obtained B.Admin. as dual degree in the School of Ecnomics and Management, Tsinghua University.
               </p>
               <p>
-                I am broadly interested in computer vision and deep learning. My current research focuses on 3D vision. 
+                I am broadly interested in computer vision and deep learning. My current research focuses on 3D vision, 3D generation and 4D world model. 
               </p>
               <p style="text-align:center">
                 <a href="mailto:wziyi22@mails.tsinghua.edu.cn">Email</a> &nbsp/&nbsp
@@ -52,6 +52,12 @@
           <td style="padding:20px;width:100%;vertical-align:middle">
             <heading>News</heading>
             <p>
+	      <li style="margin: 5px;" >
+                <b>2025-06:</b> 1 survey paper on vision generalist model is accepted to <a href="https://link.springer.com/journal/11263">IJCV 2025</a>.
+              </li>
+	      <li style="margin: 5px;" >
+                <b>2025-02:</b> 1 paper on unified 3D point cloud pre-training is accepted to <a href="https://neurips.cc">CVPR 2025</a>.
+              </li>
 	      <li style="margin: 5px;" >
                 <b>2024-09:</b> 1 paper on 3D open vocabulary semantic segmentation is accepted to <a href="https://neurips.cc">NeurIPS 2024</a>.
               </li>
@@ -93,6 +99,77 @@
         </tbody></table>
 
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+	  <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/VGM.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Vision Generalist Model: A Survey</papertitle>
+              <br>
+              <strong>Ziyi Wang</strong>,
+	      <a href="https://raoyongming.github.io">Yongming Rao</a>,
+	      Shuofeng Sun,
+	      Xinrun Liu,
+	      <a href="https://weiyithu.github.io">Yi Wei</a>,
+	      <a href="https://yuxumin.github.io/">Xumin Yu</a>,
+	      <a href="https://scholar.google.com/citations?user=7npgHqAAAAAJ&hl=en">Zuyan Liu</a>,
+	      <a href="https://yanbo-23.github.io">Yanbo Wang*</a>,
+	      Hongmin Liu,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em>International Journal of Computer Vision (<strong>IJCV</strong>)</em>, 2025
+              <br>
+              <a href="https://arxiv.org/abs/2506.09954">[arXiv]</a>
+              <br>
+              <p> We conduct a comprehensive survey on vision generalist models that support multimodal inputs and can handle various downstream tasks, </p>
+            </td>
+          </tr>
+
+	  <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/OGGSplat.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>OGGSplat: Open Gaussian Growing for Generalizable Reconstruction with Expanded Field-of-View</papertitle>
+              <br>
+	      <a href="https://yanbo-23.github.io">Yanbo Wang*</a>,
+              <strong>Ziyi Wang</strong>*,
+	      <a href="https://wzzheng.net">Wenzhao Zheng</a>,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em>Preprint</em>.
+              <br>
+              <a href="https://arxiv.org/abs/2506.05204">[arXiv]</a>
+              <a href="https://github.com/Yanbo-23/OGGSplat">[Code]</a>
+	      <a href="https://yanbo-23.github.io/OGGSplat">[Project Page]</a>
+              <br>
+              <p> OGGSplat is designed to expand the field-of-view of the Gaussian-based 3D scene reconstructed from sparse views and feedforward / generalizable models. </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/UniPre3D.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>UniPre3D: Unified Pre-training of 3D Point Cloud Models with Cross-Modal Gaussian Splatting</papertitle>
+              <br>
+              <strong>Ziyi Wang</strong>*,
+	      <a href="https://github.com/Zhangyr2022">Yanran Zhang*</a>,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2025
+              <br>
+              <a href="https://arxiv.org/abs/2506.09952">[arXiv]</a>
+              <a href="https://github.com/wangzy22/UniPre3D">[Code]</a>
+              <br>
+              <p> UniPre3D is a unified pre-training method that can be applied to both object-level and scene-level point clouds. It is supported by cross-modal Gaussian splatting technique. </p>
+            </td>
+          </tr>
 	
 	  <tr>
             <td style="padding:20px;width:30%;max-width:30%" align="center">
@@ -115,8 +192,6 @@
               <p> XMask3D is a framework that propose mask-level reasoning techniques to empower 3D segmentation model with open vocabulary capacity under the assistance of the pre-trained 2D mask generator. </p>
             </td>
           </tr>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 	
 	  <tr>
             <td style="padding:20px;width:30%;max-width:30%" align="center">
@@ -321,6 +396,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Honors and Awards</heading>
               <p>
+		<li style="margin: 5px;"> 2024 National Scholarship, Tsinghua University</li>
 		<li style="margin: 5px;"> 2023 ChangXin Memory Scholarship, Tsinghua University</li>
 		<li style="margin: 5px;"> 2023 CVPR Outstanding Reviewer</li>
                 <li style="margin: 5px;"> 2021 Haining Talent Scholarship, Tsinghua University</li>
@@ -351,7 +427,7 @@
     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9CxOMjcpU9w-plJyTUCLdeFnIgwW-GgMgaWu0l1B-xk"></script>
 	  </div>        
 	  <br>
-	    &copy; Ziyi Wang | Last updated: Dec 19, 2024
+	    &copy; Ziyi Wang | Last updated: Jun 12, 2025
 </center></p>
 </body>
 
